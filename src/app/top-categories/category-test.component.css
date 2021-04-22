@@ -1,0 +1,53 @@
+.row1{
+    display: flex;
+    /* background-color: rgb(201, 200, 193); */
+    /* min-height: 50px; */
+    /* margin: 5px; */
+}
+.topCategory{
+    display: flex;
+    flex: 3;
+    /* align-content: center; */
+    margin: 10px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+}
+.locationCategory{
+    flex:1;
+    background-color: khaki;
+    /* min-height: 50px; */
+    margin: 10px;
+}
+@media (max-width:768px) {
+    .row1{
+        display: flex;
+        flex-direction: column;
+        /* min-height: 50px; */
+    }
+    .topCategory{
+        display: flex;
+        flex: 3;
+        flex-direction: column;
+    }
+}
+.kitchen{
+    flex:1;
+    /* background-color: darkslategrey; */
+    margin: 10px;
+}
+.bedroom{
+    flex:1;
+    /* background-color: rgb(140, 240, 218); */
+    margin: 10px;
+}
+.livingRoom{
+    flex:1;
+    /* background-color: lawngreen; */
+    margin: 10px;
+}
+.shopLocation{
+    margin: 10px;
+}
+img{
+    cursor: pointer;
+}

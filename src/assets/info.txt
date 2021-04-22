@@ -1,0 +1,18 @@
+Font Awesome link (email - fa12@yopmail.com Name- Rohit Rana)
+<script src="https://kit.fontawesome.com/ca36329af3.js" crossorigin="anonymous"></script>
+
+{
+gdrive edited link for iframe
+https://drive.google.com/embeddedfolderview?id=1AOzoa2qcO4Kd_pdmASMYVIeRJ-ZuVdeg
+
+gdrive original link
+https://drive.google.com/drive/folders/1AOzoa2qcO4Kd_pdmASMYVIeRJ-ZuVdeg?usp=sharing
+
+working copy of iframe with borderless design
+<iframe src="https://drive.google.com/embeddedfolderview?id=1AOzoa2qcO4Kd_pdmASMYVIeRJ-ZuVdeg#grid" width="700px" height="350px" frameborder="0">
+}
+To summarize the iframe: replace the following 
+ linkObj = {
+    'drive/folders/' : 'embeddedfolderview?id=',
+    '?usp=sharing' : '#grid'
+  }
